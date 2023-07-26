@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="home">
+   <!--SmartLogin-->
+   <span class="d-none" id="username"></span>
+  <div class="container my-5 text-center">
+      <div class="group m-auto w-75 p-5">
+          <h1>Smart Login System</h1>
+
+          <input type="text" class="form-control my-3 color" placeholder="Enter Your Name" id="signupName">
+          <input type="email" class="form-control my-3" placeholder="Enter Your Email" id="signupEmail">
+
+          <input type="password" class="form-control my-3" placeholder="Enter Your password" id="signupPassword">
+           <p id="exist"></p>
+
+             <button onclick=" signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+          <p class="text-white">You have an account? <a class="text-white" href="index.html">Sign In</a></p>
+      </div>
+  </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
